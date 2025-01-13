@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/bin/Debug/net8.0/Ravi
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/bin/Debug/net8.0/Ravi.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/bin/Debug/net8.0/Ravi.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/bin/Debug/net8.0/Ravi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/bin/Debug/net8.0/Ravi.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/refint/Ravi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/Ravi.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Ravi/Ravi/obj/Debug/net8.0/ref/Ravi.dll

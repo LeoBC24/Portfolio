@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/bin/Debug/net8.0/kymppi
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/bin/Debug/net8.0/kymppi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/bin/Debug/net8.0/kymppi.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/refint/kymppi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/10-tehtävä/kymppi/obj/Debug/net8.0/kymppi.pdb

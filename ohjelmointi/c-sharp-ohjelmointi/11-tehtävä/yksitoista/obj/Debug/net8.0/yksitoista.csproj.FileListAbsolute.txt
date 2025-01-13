@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/bin/Debug/net8.0/yksitoista
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/bin/Debug/net8.0/yksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/bin/Debug/net8.0/yksitoista.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/refint/yksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/11-tehtävä/yksitoista/obj/Debug/net8.0/yksitoista.pdb

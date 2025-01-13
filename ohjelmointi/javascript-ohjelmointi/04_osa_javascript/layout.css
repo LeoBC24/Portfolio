@@ -1,0 +1,40 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 1rem;
+    background-color:hsl(160, 43%, 96%);
+}
+h1, h2{
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 0.2rem solid black;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+#myButton{
+    background-color: hsl(158, 57%, 77%);
+    color:hsl(175, 48%, 9%);
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+    border: 0.2rem black solid;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    width: 20rem;
+}
+
+#myButton:hover{
+    background-color: hsl(175, 48%, 9%) ;
+    color: hsl(158, 57%, 77%);
+    border: 0.2rem rgb(255, 255, 255) solid;
+    box-shadow: hsl(158, 57%, 77%) 1rem 1rem;
+}

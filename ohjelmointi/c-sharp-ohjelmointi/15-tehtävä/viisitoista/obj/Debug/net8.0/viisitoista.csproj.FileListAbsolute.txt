@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/bin/Debug/net8.0/viisitoista
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/bin/Debug/net8.0/viisitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/bin/Debug/net8.0/viisitoista.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/refint/viisitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/15-tehtävä/viisitoista/obj/Debug/net8.0/viisitoista.pdb

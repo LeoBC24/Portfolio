@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/bin/Debug/net8.0/seiska
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/bin/Debug/net8.0/seiska.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/bin/Debug/net8.0/seiska.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/refint/seiska.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/7-tehtävä/seiska/obj/Debug/net8.0/seiska.pdb

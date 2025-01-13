@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/bin/Debug/net8.0/Tieto
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/bin/Debug/net8.0/Tieto.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/bin/Debug/net8.0/Tieto.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/bin/Debug/net8.0/Tieto.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/bin/Debug/net8.0/Tieto.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/refint/Tieto.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/Tieto.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Tietovisa/Tieto/obj/Debug/net8.0/ref/Tieto.dll

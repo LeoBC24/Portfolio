@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/bin/Debug/net8.0/kaksitoista
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/bin/Debug/net8.0/kaksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/bin/Debug/net8.0/kaksitoista.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/refint/kaksitoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/12-tehtävä/kaksitoista/obj/Debug/net8.0/kaksitoista.pdb

@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/bin/Debug/net8.0/kaksikymmentä
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/bin/Debug/net8.0/kaksikymmentä.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/bin/Debug/net8.0/kaksikymmentä.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/refint/kaksikymmentä.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/20-tehtävä/kaksikymmentä/obj/Debug/net8.0/kaksikymmentä.pdb

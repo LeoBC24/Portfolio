@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/bin/Debug/net8.0/listat
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/bin/Debug/net8.0/listat.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/bin/Debug/net8.0/listat.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/bin/Debug/net8.0/listat.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/bin/Debug/net8.0/listat.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/refint/listat.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/listat.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/listat/listat/obj/Debug/net8.0/ref/listat.dll

@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/bin/Debug/net8.0/ysi
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/bin/Debug/net8.0/ysi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/bin/Debug/net8.0/ysi.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/refint/ysi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/9-tehtävä/ysi/obj/Debug/net8.0/ysi.pdb

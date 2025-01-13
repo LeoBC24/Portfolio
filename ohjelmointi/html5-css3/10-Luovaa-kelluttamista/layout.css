@@ -1,0 +1,78 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+h1, p{
+    margin-block-end: 1rem;
+}
+.container{
+    margin: 10px 20px;
+    display: grid;
+    padding-bottom: 10px;
+    
+    grid-template-columns: 98px 162px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "kuva otsikko"
+    "kuva teksti";
+    background-color: gainsboro;
+    background-image: linear-gradient(to bottom right, gainsboro,white);
+    padding: 1rem;
+}
+.container .heading{
+    
+}
+.img{
+    grid-area: image;
+    grid-row: 1 / span 2;
+}
+.heading{
+    grid-area: heading;
+    margin-bottom: 10px;
+    font-size: 130%;
+    letter-spacing: 1px;
+    color: #627081;
+    
+}
+.container .heading{
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+}
+.container .image{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+.container .text{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+.text{
+    grid-area: text;
+    font-size: 85%;
+    line-height: 1.5rem;
+    color: #667;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear:both;
+    height: 0;
+}
+.clearfix {
+    overflow: auto;
+  }
+.container .image img{
+    padding: 5px solid lightgrey darkgrey;
+    background-color: white;
+    box-shadow: darkgrey 3px;
+    max-width: 100%;
+}

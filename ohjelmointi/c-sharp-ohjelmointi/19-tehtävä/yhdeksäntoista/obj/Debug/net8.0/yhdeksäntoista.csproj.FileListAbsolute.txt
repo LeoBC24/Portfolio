@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/bin/Debug/net8.0/yhdeksäntoista
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/bin/Debug/net8.0/yhdeksäntoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/bin/Debug/net8.0/yhdeksäntoista.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/refint/yhdeksäntoista.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/19-tehtävä/yhdeksäntoista/obj/Debug/net8.0/yhdeksäntoista.pdb

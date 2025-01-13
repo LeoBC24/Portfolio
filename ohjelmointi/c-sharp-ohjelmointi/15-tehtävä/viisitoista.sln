@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viisitoista", "viisitoista\viisitoista.csproj", "{ED01F7DB-3F98-456A-A563-1EE2C8FF903E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED01F7DB-3F98-456A-A563-1EE2C8FF903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED01F7DB-3F98-456A-A563-1EE2C8FF903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED01F7DB-3F98-456A-A563-1EE2C8FF903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED01F7DB-3F98-456A-A563-1EE2C8FF903E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

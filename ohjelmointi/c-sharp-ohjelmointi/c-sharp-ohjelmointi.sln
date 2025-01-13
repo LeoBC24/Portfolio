@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kertaus2", "Kertaus2", "{5A9D0853-6360-43B8-886E-73C33BF7C9FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kertaus", "Kertaus2\kertaus\kertaus.csproj", "{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hi", "Hi", "{D86C9540-CF9D-4799-9DA0-31FE3014EFA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hi", "Hi\Hi\Hi.csproj", "{692C9A1F-B616-44F7-89F7-8644F05343BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tietovisa", "Tietovisa", "{A546C282-6991-40E6-A433-85B8D607A162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tieto", "Tietovisa\Tieto\Tieto.csproj", "{838E0CF5-FDD1-475D-AF28-EE264C5F2305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-tehtävä", "6-tehtävä", "{70C83A35-6711-4ED3-9045-DD8A8B3B7D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6tehtävä", "6-tehtävä\6tehtävä\6tehtävä.csproj", "{9A240D08-DC3D-4A2E-980E-D940E52C9B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692C9A1F-B616-44F7-89F7-8644F05343BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692C9A1F-B616-44F7-89F7-8644F05343BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692C9A1F-B616-44F7-89F7-8644F05343BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692C9A1F-B616-44F7-89F7-8644F05343BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838E0CF5-FDD1-475D-AF28-EE264C5F2305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838E0CF5-FDD1-475D-AF28-EE264C5F2305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838E0CF5-FDD1-475D-AF28-EE264C5F2305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838E0CF5-FDD1-475D-AF28-EE264C5F2305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A240D08-DC3D-4A2E-980E-D940E52C9B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A240D08-DC3D-4A2E-980E-D940E52C9B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A240D08-DC3D-4A2E-980E-D940E52C9B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A240D08-DC3D-4A2E-980E-D940E52C9B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91F9EFEB-6007-4CA3-9FBC-0F1E3A1E1754} = {5A9D0853-6360-43B8-886E-73C33BF7C9FE}
+		{692C9A1F-B616-44F7-89F7-8644F05343BE} = {D86C9540-CF9D-4799-9DA0-31FE3014EFA7}
+		{838E0CF5-FDD1-475D-AF28-EE264C5F2305} = {A546C282-6991-40E6-A433-85B8D607A162}
+		{9A240D08-DC3D-4A2E-980E-D940E52C9B23} = {70C83A35-6711-4ED3-9045-DD8A8B3B7D40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53BAFF59-3F43-426B-81E6-A30CCF54C86A}
+	EndGlobalSection
+EndGlobal

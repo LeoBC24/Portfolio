@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/bin/Debug/net8.0/kasi
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/bin/Debug/net8.0/kasi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/bin/Debug/net8.0/kasi.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/refint/kasi.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/8-tehtävä/kasi/obj/Debug/net8.0/kasi.pdb

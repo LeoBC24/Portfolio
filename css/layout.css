@@ -1,0 +1,150 @@
+html {
+  font-size: 62.5%; /*oletusfontti 62.5 * 16px = 10px = 1rem */
+}
+/* Määritellän 4 oletusväriä muuttujien avulla */
+:root{
+    --beige:#fce0d1;
+    --viininpunainen:#69013b;
+    --musta:#191919;
+    --valkoinen:#ffffff;
+}
+/* Otetaan käyttöön fontti Open Sans */
+.open-sans-400 > {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Otsikoihin fontti Spectral */
+.spectral-400 {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Fontti Open Sans käyttöön koko asiakirjassa */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.6rem;
+  margin: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol {
+  margin-block-end: 1rem;
+}
+ol {
+    list-style: decimal;
+}
+ol li{
+    margin-block-end: 0.8rem;
+}
+/* Määritellän sisennykset */
+
+.sisennys-2rem{
+    margin-inline-start: 2rem;
+}
+.sisennys-4rem{
+    margin-inline-start: 4rem;
+}
+.sisennys-6rem{
+    margin-inline-start: 6rem;
+}
+.sisennys-8rem{
+    margin-inline-start: 8rem;
+}
+
+/* Muotoillaan linkit */
+
+/* unvisited link */
+a:link {
+    color: var(--musta);
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--musta);
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--beige);
+    background-color: var(--viininpunainen);
+    font-style: italic;
+    padding: 0.5rem;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: var(--musta);
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  footer a:link {
+    color:var(--beige);
+  }
+/* Muotoillaan web-sivun osat */
+
+header, footer{
+    background-color: var(--viininpunainen);
+    color: var(--beige);
+    padding: 2rem;
+}
+/* Kulman pyöristykset headeriin ja footeriin */
+header{
+    border-radius: 1rem 1rem 0 0;
+}
+footer{
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* Koulun logoheaderin oikeaan reunaan */
+#logo{
+    display:block;
+    width: 20rem;
+    float: right;
+}
+#logo img{
+    max-width: 100%}
+    .ops{
+        color:var(--musta);
+        padding:1rem;
+        border-left: var(--viininpunainen) 1px solid;
+        border-right: var(--viininpunainen) 1px solid;
+    }

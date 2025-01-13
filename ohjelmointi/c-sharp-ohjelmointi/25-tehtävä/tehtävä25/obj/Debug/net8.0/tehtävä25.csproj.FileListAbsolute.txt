@@ -1,0 +1,10 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/bin/Debug/net8.0/tehtävä25
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/bin/Debug/net8.0/tehtävä25.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/bin/Debug/net8.0/tehtävä25.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/refint/tehtävä25.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/25-tehtävä/tehtävä25/obj/Debug/net8.0/tehtävä25.pdb

@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/bin/Debug/net8.0/huone
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/bin/Debug/net8.0/huone.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/bin/Debug/net8.0/huone.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/bin/Debug/net8.0/huone.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/bin/Debug/net8.0/huone.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/refint/huone.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/huone.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/huone/huone/obj/Debug/net8.0/ref/huone.dll

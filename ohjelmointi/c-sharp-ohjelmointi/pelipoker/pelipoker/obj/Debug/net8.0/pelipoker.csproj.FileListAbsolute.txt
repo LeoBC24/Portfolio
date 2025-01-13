@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/bin/Debug/net8.0/pelipoker
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/bin/Debug/net8.0/pelipoker.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/bin/Debug/net8.0/pelipoker.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/bin/Debug/net8.0/pelipoker.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/bin/Debug/net8.0/pelipoker.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/refint/pelipoker.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/pelipoker.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/pelipoker/pelipoker/obj/Debug/net8.0/ref/pelipoker.dll

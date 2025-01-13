@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/bin/Debug/net8.0/4-luento
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/bin/Debug/net8.0/4-luento.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/bin/Debug/net8.0/4-luento.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/bin/Debug/net8.0/4-luento.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/bin/Debug/net8.0/4-luento.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/refint/4-luento.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/4-luento.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/4-luento/4-luento/obj/Debug/net8.0/ref/4-luento.dll

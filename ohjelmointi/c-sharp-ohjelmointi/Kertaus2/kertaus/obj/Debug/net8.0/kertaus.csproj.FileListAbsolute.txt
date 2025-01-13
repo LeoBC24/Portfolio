@@ -1,0 +1,14 @@
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/bin/Debug/net8.0/kertaus
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/bin/Debug/net8.0/kertaus.deps.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/bin/Debug/net8.0/kertaus.runtimeconfig.json
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/bin/Debug/net8.0/kertaus.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/bin/Debug/net8.0/kertaus.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.AssemblyInfoInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.AssemblyInfo.cs
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.csproj.CoreCompileInputs.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/refint/kertaus.dll
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.pdb
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/kertaus.genruntimeconfig.cache
+/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/Kertaus2/kertaus/obj/Debug/net8.0/ref/kertaus.dll
