@@ -128,9 +128,11 @@ const App = () => {
     return <div>Loading...</div>;
   }
 
-  if (error) {
-    return <div>{error}</div>;
-  }
+  {error && (
+    <div style={{ color: 'red' }}>
+      Could not load data. Backend may be offline.
+    </div>
+  )}
 
   return (
     <section>
