@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj": {}
+    "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj": {}
   },
   "projects": {
-    "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj": {
+    "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj",
+        "projectUniqueName": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj",
         "projectName": "6tehtävä",
-        "projectPath": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj",
+        "projectPath": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/6tehtävä.csproj",
         "packagesPath": "/Users/s2401553/.nuget/packages/",
-        "outputPath": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/obj/",
+        "outputPath": "/Users/s2401553/Documents/portfolio/ohjelmointi/c-sharp-ohjelmointi/6-tehtävä/6tehtävä/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/s2401553/.nuget/NuGet/NuGet.Config"

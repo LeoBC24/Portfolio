@@ -27,8 +27,6 @@ class Program
     static void Main()
     {
         int lines = dnaPattern.Length;
-        int width = dnaPattern[0].Length;
-
         Console.CursorVisible = false;
 
         try
@@ -39,7 +37,7 @@ class Program
                 {
                     Console.Clear();
                     PrintPattern(i);
-                    Thread.Sleep(60);
+                    Thread.Sleep(60); // Täältä voi säätää nopeuden
                 }
             }
         }
@@ -52,10 +50,57 @@ class Program
 
     static void PrintPattern(int offset)
     {
+        int consoleWidth = Console.WindowWidth;
+        int patternWidth = GetMaxPatternWidth();
+
+        int padding = (consoleWidth - patternWidth) / 2;
+
         for (int i = 0; i < dnaPattern.Length; i++)
         {
             int index = (i + offset) % dnaPattern.Length;
-            Console.WriteLine(dnaPattern[index]);
+            string line = dnaPattern[index];
+
+            Console.Write(new string(' ', padding));
+
+            foreach (char ch in line)
+            {
+                Console.ForegroundColor = CharacterColor(ch);
+                Console.Write(ch);
+            }
+
+            Console.WriteLine();
+        }
+    }
+
+    static int GetMaxPatternWidth()
+    {
+        int maxWidth = 0;
+
+        foreach (string line in dnaPattern)
+        {
+            if (line.Length > maxWidth)
+            {
+                maxWidth = line.Length;
+            }
+        }
+
+        return maxWidth;
+    }
+
+    static ConsoleColor CharacterColor(char ch) // lisäsin väriä kirjaimiin
+    {
+        switch (ch)
+        {
+            case 'G':
+                return ConsoleColor.DarkGreen;
+            case 'C':
+                return ConsoleColor.DarkBlue;
+            case 'T':
+                return ConsoleColor.DarkYellow;
+            case 'A':
+                return ConsoleColor.DarkRed;
+            default:
+                return ConsoleColor.Black;
         }
     }
 }

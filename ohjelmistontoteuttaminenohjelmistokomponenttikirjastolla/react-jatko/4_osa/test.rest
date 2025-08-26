@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+  {
+    "title": "Not included",
+    "author": "Didnt write this",
+    "url": "https://notfound.com/",
+    "likes": 1
+  }
+###
+GET http://localhost:3003/api/blogs

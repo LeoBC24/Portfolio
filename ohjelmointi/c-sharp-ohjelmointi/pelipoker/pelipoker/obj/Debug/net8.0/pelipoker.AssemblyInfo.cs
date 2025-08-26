@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pelipoker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f240a48a06b7b2bebb97925a6915a0e3e161107")]
 [assembly: System.Reflection.AssemblyProductAttribute("pelipoker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pelipoker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

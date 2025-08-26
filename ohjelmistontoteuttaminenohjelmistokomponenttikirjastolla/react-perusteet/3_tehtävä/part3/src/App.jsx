@@ -1,19 +1,19 @@
-import { useState, useEffect } from 'react';
-import personService from './services/personService';
-import Filter from './components/Filter';
-import PersonForm from './components/PersonForm';
-import PersonList from './components/PersonList';
+import { useState, useEffect } from "react";
+import personService from "./services/personService";
+import Filter from "./components/Filter";
+import PersonForm from "./components/PersonForm";
+import PersonList from "./components/PersonList";
 
 const App = () => {
   const [persons, setPersons] = useState([]);
-  const [newName, setNewName] = useState('');
-  const [newNumber, setNewNumber] = useState('');
-  const [filter, setFilter] = useState('');
+  const [newName, setNewName] = useState("");
+  const [newNumber, setNewNumber] = useState("");
+  const [filter, setFilter] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [notification, setNotification] = useState(null);
 
-  const showNotification = (message, type = 'success') => {
+  const showNotification = (message, type = "success") => {
     setNotification({ message, type });
     setTimeout(() => {
       setNotification(null);
@@ -28,7 +28,7 @@ const App = () => {
         setLoading(false);
       })
       .catch((error) => {
-        setError('Failed to fetch data');
+        setError("Failed to fetch data");
         setLoading(false);
       });
   }, []);
@@ -61,20 +61,21 @@ const App = () => {
         personService
           .update(person.id, updatedPerson)
           .then((updated) => {
-            setPersons(
-              persons.map((p) => (p.id === updated.id ? updated : p))
-            );
-            setNewName('');
-            setNewNumber('');
+            setPersons(persons.map((p) => (p.id === updated.id ? updated : p)));
+            setNewName("");
+            setNewNumber("");
             showNotification(`${newName}'s number updated successfully`);
           })
           .catch((error) => {
             if (error.response && error.response.status === 404) {
-              showNotification(`${newName} was already deleted`, 'error');
+              showNotification(`${newName} was already deleted`, "error");
             } else {
-              showNotification('There was an error updating the person', 'error');
+              showNotification(
+                "There was an error updating the person",
+                "error"
+              );
             }
-            console.error('Error updating person:', error);
+            console.error("Error updating person:", error);
           });
       }
     } else {
@@ -87,21 +88,28 @@ const App = () => {
         .create(newPerson)
         .then((addedPerson) => {
           setPersons(persons.concat(addedPerson));
-          setNewName('');
-          setNewNumber('');
+          setNewName("");
+          setNewNumber("");
           showNotification(`${newName} added successfully`);
         })
         .catch((error) => {
-          showNotification('There was an error adding the person', 'error');
-          console.error('Error adding person:', error);
+          const errorMessage =
+            error.response?.data?.error || "There was an error adding the person";
+          showNotification(errorMessage, "error");
+          console.error("Error adding person:", error);
         });
+        
     }
   };
 
   const handleDelete = (id) => {
     const personToDelete = persons.find((person) => person.id === id);
     if (personToDelete) {
-      if (window.confirm(`Are you sure you want to delete ${personToDelete.name}?`)) {
+      if (
+        window.confirm(
+          `Are you sure you want to delete ${personToDelete.name}?`
+        )
+      ) {
         personService
           .remove(id)
           .then(() => {
@@ -110,11 +118,17 @@ const App = () => {
           })
           .catch((error) => {
             if (error.response && error.response.status === 404) {
-              showNotification(`${personToDelete.name} already deleted`, 'error');
+              showNotification(
+                `${personToDelete.name} already deleted`,
+                "error"
+              );
             } else {
-              showNotification('There was an error deleting the person', 'error');
+              showNotification(
+                "There was an error deleting the person",
+                "error"
+              );
             }
-            console.error('Error deleting person:', error);
+            console.error("Error deleting person:", error);
           });
       }
     }
@@ -128,15 +142,16 @@ const App = () => {
     return <div>Loading...</div>;
   }
 
-  {error && (
-    <div style={{ color: 'red' }}>
-      Could not load data. Backend may be offline.
-    </div>
-  )}
-
   return (
     <section>
       <h2>Phonebook</h2>
+
+      {error && (
+        <div style={{ color: "red" }}>
+          Could not load data. Backend may be offline.
+        </div>
+      )}
+
       {notification && (
         <div className={`notification ${notification.type}`}>
           {notification.message}

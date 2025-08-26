@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4-luento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ba2d5d608d1983a5263df276eb4eb0366ace9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("4-luento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4-luento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

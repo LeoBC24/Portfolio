@@ -1,342 +1,320 @@
 ﻿using System;
-using System.Collections;
-using System.Formats.Tar;
-using System.Globalization;
+using System.Collections.Generic;
+
 namespace pelipoker
 {
     class Program
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Tervetuloa pelaamaan pokeria");
-            // Luodaan deck luokasta uusi objekti eli korttipakka peliin.
+            Console.WriteLine("Tervetuloa pelaamaan Blackjackia!");
+
+            // Luodaan korttipakka ja pelaaja
             Deck deck = new Deck();
-            
             Console.WriteLine("Anna nimesi kiitos");
             string name = Console.ReadLine();
-            // Luodaan Pelaaja ja annetaan pelaajalle konstruktorin vaatimat informaatiot
+            Player player = new Player(name, deck);
 
-            Player player = new Player(name, 5, deck);
-            // Annetaan pelaajalle rahaa
-            player.money = 100;
+            player.money = 100;  // Pelaajalla on aluksi 100 rahaa
 
-            Console.WriteLine("Pelaamassa tänään on: " + player.name + " joka saa kortteja käteen "
-            + player.hand.Length + " kappaletta, pakasta " + deck);
-
-            
             while (player.gamerunning)
             {
-            //Kysytään panos ja käsitellään rahamäärä.
-            bool betOK = false;
-            while(betOK == false)
-            {
-            Console.WriteLine("Paljonko haluat laittaa panokseksi? 1-10");
-            player.bet = Int32.Parse(Console.ReadLine());
-            if(player.bet <= player.money && player.bet >= 1 && player.bet <=10)
-            {
-                betOK = true;
-            }
-            }
-            player.money -= player.bet;
+                // Kysytään pelaajalta panos
+                bool betOK = false;
+                while (betOK == false)
+{
+    Console.WriteLine("Paljonko haluat laittaa panokseksi? 1-10");
+    string input = Console.ReadLine();  // Get the user input
 
-            // Jaetaan pelaajalle 5 korttia
-            deck.Deal(player.hand.Length, player);
-            // Käynistetään funktio, joka mahdollistaa korttien vaihtamisen.
-            player.changeCards();
-            // Tarkistetaan lopputulos
-            player.CheckResults();
-            }
-
-            Console.WriteLine("Kiitos kun pelasit pokeria.");
+    // Try to parse the input into an integer
+    if (int.TryParse(input, out player.bet))
+    {
+        if (player.bet <= player.money && player.bet >= 1 && player.bet <= 10)
+        {
+            betOK = true;  // If the bet is valid, exit the loop
+        }
+        else
+        {
+            Console.WriteLine("Virheellinen panos, yritä uudestaan.");
         }
     }
-    class Deck
+    else
     {
-        /*public int[] deckCards = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-        11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-        21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
-        31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
-        41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51};*/
-        public int [] deckCards = {5,8,18,32,33,47,48};
-        public List<int> takenCards = new List<int>();
-        // Konstruktori on funktio, jolla täytyy olla sama nimi kuin luokalla
-        // Kun luokasta(Class) luodaan uusi objekti, eli ilmentyma ajetaan konstruktori
-        // automaattisesti, eli sitä ei tarvitse erikseen kutsua.
-        public Deck()
-        {
-            Console.WriteLine("Korttipakka on luotu peliin. " + 
-            "Tämä on korttipakan konstruktori. Tämä ajetaan automaattisesti");
-        }
-        // Funktio, joka jakaa halutun määrän kortteja tietylle pelaajalle.
-        public void Deal(int amount, Player player)
-        {
-            Console.WriteLine("Jaetaan " + amount + " satunnaista korttia pelaajalle: " + player.name);
-            // Satunnainen jako
-            Random random = new Random();
-            // Yritä niin kauan ottaa kortteja korttipakasta, kunnes käsi on täynnä kortteja 5kpl.
-            // Vedettäessä kortti korttipakasta, tarkasta onko korttia jo vedetty aikaisemmin.
-            // Jos on, vedä uusi satunnainen kortti, jos ei, laita kortti pelaajan käteen.
-            // Tee tätä niin kauan kunnes pelaajan käsi on täynnä kortteja
-            int i = 0;
-            while (i < amount)
-            {
-                // Satunnainen korttinumero 0-51 väliltä.
-                int cardValue = deckCards[random.Next(0, deckCards.Length)];
-                // Tarkastetaan onko kortti takencards listassa
-                if(!takenCards.Contains(cardValue))
+        Console.WriteLine("Virheellinen syöte, syötä vain numero.");
+    }
+}
+
+
+                player.money -= player.bet;  // Subtract the bet from the player's money before the round
+
+                // Jaetaan kortit
+                deck.Deal(player, 2);
+                deck.Deal(player, 2, "dealer");
+
+                // Näytetään pelaajan ja jakajan kädet
+                player.ShowHand();
+                deck.ShowDealerHand();
+
+                // Pelaaja voi valita toimintoja
+                while (player.GetHandValue() < 21)
                 {
-                    // Tämä ajetaan jos takencards lista ei sisällä arvottua arvoa deckista
-                    Console.WriteLine("Kortti, jonka sait on: " + cardValue);
-                    player.hand[i] = cardValue;
-                    // Lisätään vedetty kortti takenCards listalle
-                    takenCards.Add(cardValue);
-                    i++;
+                    Console.WriteLine("Haluatko vetää kortin (H) vai jäädä (J)?");
+                    string action = Console.ReadLine().ToUpper();
+
+                    if (action == "H")
+                    {
+                        deck.Deal(player, 1);
+                        player.ShowHand();
+                    }
+                    else if (action == "J")
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Virheellinen valinta. Valitse 'H' tai 'J'.");
+                    }
+                }
+
+                // Jakaja ottaa kortteja jos käden arvo on alle 17
+                deck.PlayDealerHand();
+
+                // Tarkistetaan voittaja
+                player.CheckResults(deck);
+
+                // If the player runs out of money, end the game
+                if (player.money <= 0)
+                {
+                    Console.WriteLine("Olet menettänyt kaiken rahasi. Peli päättyy.");
+                    player.gamerunning = false;
+                    break;
+                }
+
+                // Kysy pelaajalta, haluaako hän jatkaa
+                Console.WriteLine("Haluatko jatkaa peliä? (K/E)");
+                string continueGame = Console.ReadLine().ToUpper();
+                if (continueGame == "E")
+                {
+                    player.gamerunning = false;
                 }
                 else
                 {
-                    Console.WriteLine("Kortti " + cardValue + " oli jo vedetty. Arvotaan uudestaan");
+                    // Reset and shuffle deck after each round
+                    deck.ResetDeck(); // Reset the deck
+                    deck.ShuffleDeck(); // Shuffle the deck
+                    player.ResetHand(); // Reset player's hand
                 }
             }
-            player.ShowHand();
-        }
 
-        public int GetCard()
-        {
-            // Tämä on yleinen funktio, jotka palauttaa aina jonkun satunnaisen kortin
-            // Käytännössä palauttaa numeron 0-51 välillä
-            Random random = new Random(Guid.NewGuid().GetHashCode());
-            int card = deckCards[random.Next(0, deckCards.Length)];
-            return card;
+            Console.WriteLine("Kiitos kun pelasit Blackjackia!");
         }
-
     }
+
+    class Deck
+    {
+        private List<int> deckCards;
+        public List<int> takenCards = new List<int>();
+        public List<int> dealerHand = new List<int>();
+
+        public Deck()
+        {
+            ResetDeck();  // Initialize the deck and shuffle it
+        }
+
+        public void ShuffleDeck()
+        {
+            Random random = new Random();
+            for (int i = 0; i < deckCards.Count; i++)
+            {
+                int swapIndex = random.Next(0, deckCards.Count);
+                int temp = deckCards[i];
+                deckCards[i] = deckCards[swapIndex];
+                deckCards[swapIndex] = temp;
+            }
+        }
+
+        public void Deal(Player player, int amount, string recipient = "player")
+        {
+            if (deckCards.Count == 0)
+            {
+                Console.WriteLine("Deck is empty. Cannot deal any more cards.");
+                return;
+            }
+
+            for (int i = 0; i < amount; i++)
+            {
+                if (deckCards.Count == 0)  // Check again in case cards are depleted during the loop
+                {
+                    Console.WriteLine("Deck is empty. Cannot deal any more cards.");
+                    break;
+                }
+
+                int card = deckCards[0];
+                deckCards.RemoveAt(0); // Remove the dealt card from the deck
+
+                if (recipient == "player")
+                {
+                    player.hand.Add(card);
+                }
+                else if (recipient == "dealer")
+                {
+                    dealerHand.Add(card);
+                }
+            }
+        }
+
+        public void ShowDealerHand()
+        {
+            if (dealerHand.Count > 0)
+            {
+                Console.WriteLine("Jakajan käden ensimmäinen kortti: " + ConvertCardToText(dealerHand[0]));
+            }
+            else
+            {
+                Console.WriteLine("Jakajan käsi ei ole vielä jaettu.");
+            }
+        }
+
+        public void PlayDealerHand()
+        {
+            while (GetHandValue(dealerHand) < 17)
+            {
+                Deal(null, 1, "dealer");
+                Console.WriteLine("Jakaja ottaa kortin.");
+            }
+            Console.WriteLine("Jakajan käsi: ");
+            foreach (var card in dealerHand)
+            {
+                Console.WriteLine(ConvertCardToText(card));
+            }
+        }
+
+        public int GetHandValue(List<int> hand)
+        {
+            int value = 0;
+            int aceCount = 0;
+
+            foreach (int card in hand)
+            {
+                int cardValue = GetCardValue(card);
+                if (cardValue == 1)
+                {
+                    aceCount++;
+                }
+                value += cardValue;
+            }
+
+            // Lisätään ässä arvo 11, jos se ei mene yli 21
+            while (aceCount > 0 && value + 10 <= 21)
+            {
+                value += 10;
+                aceCount--;
+            }
+
+            return value;
+        }
+
+        public int GetCardValue(int card)
+        {
+            int number = card % 13;
+            if (number == 0) return 11;  // Ässä
+            if (number >= 10) return 10; // Jätkä, kuningatar, kuningas
+            return number + 1;
+        }
+
+        public string ConvertCardToText(int card)
+        {
+            string[] suits = { "Hertta", "Ruutu", "Risti", "Pata" };
+            string[] values = { "Ässä", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jätkä", "Kuningatar", "Kuningas" };
+
+            int suit = card / 13;
+            int value = card % 13;
+
+            return $"{values[value]} {suits[suit]}";
+        }
+
+        // Reset the deck with 52 cards and shuffle
+        public void ResetDeck()
+        {
+            deckCards = new List<int>(); // Clear any previous deck content
+            takenCards.Clear();
+            dealerHand.Clear();
+
+            // Refill deck with 52 cards
+            for (int i = 0; i < 52; i++)
+            {
+                deckCards.Add(i);  // 52 korttia
+            }
+
+            ShuffleDeck();  // Shuffle the deck after resetting
+        }
+    }
+
     class Player
     {
         public string name;
-        public int[] hand; // Taulukko, jonka koko max 5 ja sisältää kortit
+        public List<int> hand = new List<int>();
         public int money;
         public int bet;
-        public string result; // Tekstinä mikä on käden tulos. Esim. "Täyskäsi"
-        public Deck deck; // Tämä on korttipakkaobjekti, josta pelaaja on tietoinen
-
         public bool gamerunning = true;
 
-        // Luo Player luokan konstruktorifunktio
-        // Kun pelaaja luodaan ohjelmassa, sille TÄYTYY kertoa konstruktorin vaatimat asiat
-        // jokaisella pelaajalle kerrotaan nimi, korttien tila kädessä ja korttipakkaobjekti
+        private Deck deck;
 
-        public Player(string nameInput, int numOfCards, Deck gameDeck)
+        public Player(string name, Deck deck)
         {
-            name = nameInput;
-            hand = new int[numOfCards];
-            deck = gameDeck;
-            // Kun uusi pelaaja luodaan, halutaan pelaajalle antaa nimi ja kertoa, että käteen
-            // mahtuu 5 korttia ja pelaajan tulee myös tietää millä korttipakalla hän pelaa
-            // Luodaan siis yhteys pelaajan ja korttipakan välille.
-
-
+            this.name = name;
+            this.deck = deck;
         }
+
         public void ShowHand()
         {
-            // Tämä funktio listaa/näyttää pelaajan kortit konsolissa
-            Console.WriteLine("Pelaajan " + name + " kortit ovat: ");
-            for (int i = 0; i < hand.Length; i++)
+            Console.WriteLine($"{name}'s käsi:");
+            foreach (int card in hand)
             {
-                Console.WriteLine("Kortti kädessä " + i + " on " + ConvertCardToText(hand[i]));
+                Console.WriteLine(deck.ConvertCardToText(card));
             }
+            Console.WriteLine("Käden arvo: " + GetHandValue());
         }
-        // Tämä on hieno funktio. :)
-        // Tämä funtkio vaatii parametrina int arvon, joka on CardID
-        // Funktio tekee sen, että se palauttaa string arvon paikkaan jossa sitä
-        // on kutsuttu. Siksi public string
-        public string ConvertCardToText(int card)
+
+        public int GetHandValue()
         {
-            string suit = "Maa";
-            int number = 52;
-            string numberText = "";
-
-            if (card <= 12)
-            {
-                suit = "Hertta";
-                number = card + 1;
-            }
-            else if(card <= 25)
-            {
-                suit = "Ruutu";
-                number = card - 12;
-            }
-            else if(card <= 38)
-            {
-                suit = "Risti";
-                number = card - 25;
-            }
-            else
-            {
-                suit = "Pata";
-                number = card - 38;
-            }
-            // Uusi
-            switch (number)
-            {
-                case 1:
-                    numberText = "Ässä";
-                    break;
-                
-                case 11:
-                    numberText = "Jätkä";
-                    break;
-
-                case 12:
-                    numberText = "Kuningatar";
-                    break;
-
-                case 13:
-                    numberText = "Kuningas";
-                    break;
-            }
-            // return komento edellytetään funktioissa, jotka palauttaa jotain.
-            // tässä tapauksessa return palauttaa string merkkijonon kortin tiedoista
-            // esimerkiksi: ruutu 7
-            if (numberText != "")
-            {
-                return suit + " " + numberText;
-            }
-            else
-            {
-                return suit + " " + number.ToString();
-            }
+            return deck.GetHandValue(hand);
         }
-        public void changeCards()
-        {
-            /* 
-            Pyydetään käyttäjältä pilkkuerotettuna ne käden sijainnit, jotka halutaan vaihtaa.
-            Esimerkiksi 0,1,3
-            Sitten poistetaan syötteestä pilkut ja laitetaan numerot 0 1 ja 3 taulukkoon
-            Käydään loopilla taulukko läpi ja vedetään kyseiseen sijaintiin pakasta uusi
-            satunnainen kortti. Testataan, onko kortti jo vedettyjen korttien listalla ja jos ei ole,
-            laitetaan kortti käteen oikeaan sijaintiin. Lisätään kortti myös vedettyjen korttien listaan.
-             */
 
-            Console.WriteLine("Erottele pilkulla ne korttisijainnit, jotka haluat vaihtaa. Esim. 0,1,3. Jos et halua vaihtaa mitään, kirjoita Ei");
-            string changeCards = Console.ReadLine(); // 0,1,3
-            // Tämä rivi poistaa käyttäjän syötteestä pilkut ja ottaa numerot ja
-            // laittaa ne nums taulukkoon
-            if (changeCards == "E")
+        public void CheckResults(Deck deck)
+        {
+            int playerValue = GetHandValue();
+            int dealerValue = deck.GetHandValue(deck.dealerHand);
+
+            Console.WriteLine($"Pelaajan käden arvo: {playerValue}");
+            Console.WriteLine($"Jakajan käden arvo: {dealerValue}");
+
+            if (playerValue > 21)
             {
-                Console.WriteLine("Ei vaihdeta kortteja");
+                Console.WriteLine("Hävisit! Menetit panoksesi.");
+            }
+            else if (dealerValue > 21 || playerValue > dealerValue)
+            {
+                Console.WriteLine("Voitit! Voitit panoksesi.");
+                money += bet * 2;  // Double the bet when the player wins
+            }
+            else if (playerValue < dealerValue)
+            {
+                Console.WriteLine("Hävisit! Menetit panoksesi.");
             }
             else
             {
-
-            int[] nums = Array.ConvertAll(changeCards.Split(','), int.Parse);
-
-            int i = 0;
-            while(i < nums.Length)
-            {
-                // Pyydetään korttipakasta satunnainen kortti
-                int cardValue = deck.GetCard();
-                Console.WriteLine("Vedetiin kortti: " + cardValue + " " + ConvertCardToText(cardValue));
-
-                // Tarkistetaan onko kortti vedetty
-                if(!deck.takenCards.Contains(cardValue))
-                {
-                    //Kortti on käytettävissä, koska se ei ole takencards listassa
-                    //lisätään kortti käteen ja otettujen korttien listaan
-                    hand[nums[i]] = cardValue; 
-                    deck.takenCards.Add(cardValue);
-                    i++;
-                }
-                else
-                {
-                    // Kortti oli jo vedetty, ei tehdä mitään.
-                    Console.WriteLine("Yritetiin ottaa sellaista korttia, joka on jo pelissä");
-                }
+                Console.WriteLine("Tasapeli!");
+                money += bet;  // In case of a tie, the bet is returned to the player
             }
+
+            // Display the player's current money
+            Console.WriteLine($"Sinulla on nyt {money} rahaa.");
         }
-            ShowHand();
-    }
-        public string GetSuit(int card)
-        {
-            string suit;
-            if (card <= 12)
-            {
-                suit = "Hertta";
-            }
-            else if(card <= 25)
-            {
-                suit = "Ruutu";
-            }
-            else if(card <= 38)
-            {
-                suit = "Risti";
-            }
-            else
-            {
-                suit = "Pata";
-            }
-            return suit;
-        }
-        public int GetNumber(int card)
-        {
-            int number = 999;
-            if (card <= 12)
-            {
-                number = card + 1;
-            }
-            else if(card <= 25)
-            {
-                number = card -12;
-            }
-            else if(card <= 38)
-            {
-                number = card - 25;
-            }
-            else
-            {
-                number = card -38;
-            }
-            return number;
-        }
-        public void CheckResults()
-        {
-            Console.WriteLine("Tarkistetaan tuloksia");
-            if(GetSuit(hand[0]) == GetSuit(hand[1]) && GetSuit(hand[1]) == GetSuit(hand[2]) && GetSuit(hand[2]) == GetSuit(hand[3]) && GetSuit(hand[3]) == GetSuit(hand[4]))
-            {
-                Console.WriteLine("Sinulla on väri!");
-                money += bet * 7;
-            }
-            // Tehdään taulukko, johon laitetaan korttien numerot. Järjestetään taulukko suuruusjärjestykseen
-            // ja tehdään if lause suoran testausta varten.
 
-            int[] handNumbers = new int[5];
-            for(int i = 0; i < hand.Length; i++)
-            {
-                // Siirrä taulukosta toiseen ja käytä funktiossa
-                handNumbers[i] = GetNumber(hand[i]);
-                // Extra
-                Console.WriteLine(handNumbers[i]);
-            }
-            Array.Sort(handNumbers);
-
-            
-            if(handNumbers[0] - handNumbers[1] == -1 && handNumbers[1] - handNumbers[2] == -1 &&
-            handNumbers[2] - handNumbers[3] == -1 && handNumbers[3] - handNumbers[4] == -1)
-            {
-                Console.WriteLine("Sinulla on suora");
-                money += bet * 5;
-            }
-
-            Console.WriteLine("Haluatko jatkaa pelia? Vastaa K/E");
-            Console.WriteLine("Sinulla on rahaa jäljellä: " + money);
-            if(Console.ReadLine() == "E" )
-            {
-                gamerunning = false;
-            }
-            else
-            {
-                // Peli jatkuu. Tyhjennetään otettujen korttien lista, jotta peli alkaa "alusta"
-                deck.takenCards.Clear();
-            }
+        public void ResetHand()
+        {
+            hand.Clear();  // Only reset player's hand, not the dealer's
         }
     }
 }
